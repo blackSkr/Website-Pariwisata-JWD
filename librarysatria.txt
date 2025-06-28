@@ -1,0 +1,8 @@
+Nama : Brilian Satria Pamungkas
+JWD - POLNES
+
+Saya menggunakan beberapa library, seperti :
+1. Bootstrap5
+2. SweetAlert
+3. FaIcon
+4. FaFont

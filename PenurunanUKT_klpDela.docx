@@ -1,0 +1,46 @@
+Penurunan UKT
+
+permasalahan : ribetnya ngurus secara tatap muka
+
+penyelesaian : 
+1. user menginputkan berkas
+2. user submit 
+
+3. admin melihat berkas yang diinputkan user
+4. admin verifikasi dengan cara melihat lengkap atau tidaknya laporan 
+
+tb_berkas
+==================
+id_berkas
+foto_ktm
+foto_ktp
+slip_gaji_ortu
+rek_air
+rek_listrik
+foto_rumah_depan
+foto_rumah_wc
+foto_rumah_dalam
+slip_spp_terakhir
+suket_tidak_mampu
+suket_jursan
+suket_lainnya
+nim
+prodi
+nama
+email
+wa
+
+
+
+==============================
+apabila user telah upload Laporan / berkas otomati akan mendapatkan status pending yg akan di crosscheck oleh admin
+user : 
+- registrasi menggunakan nim, nama, prodi, alamat, email, wa, Password
+- login menggunakan nim dan password
+- wajib inputkan/upload gambar/scan foto berkas secara jelas dan lengkap
+
+admin : 
+- registrasi manual dengan halaman regis sendiri yang berisi noadmin, username, email, password
+- dapat melihat semua laporan(berkas) yang masuk tanpa terkecuali
+- dapat edit status laporan(berkas) menjadi status yang diinginkan
+ contoh : pending -> belum di tindak, progress -> lagi di crosscheck, verified -> diterima

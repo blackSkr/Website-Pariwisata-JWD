@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Website Pariwisata</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- Header dengan gambar -->
+    <div class="container-fluid p-0">
+        <img class="header-img" src="../web-pariwisata-rev/attribut/Biduk-Biduk-e1650418220713.png" alt="Header Image" style="width: 100%; height: auto ;object-fit: cover; max-height: 30vh;">
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #3C5B6F; font-family: kaiesei tokumin, serif;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Beranda</a>
+            <a class="navbar-brand" href="#">About</a>
+            <a class="navbar-brand" href="#">Objek Wisata</a>
+            <a class="navbar-brand" href="#">Fasilitas Wisata</a>
+            <a class="navbar-brand" href="#">Museum Salak</a>
+            <a class="navbar-brand" href="#">Pemesanan</a>
+            <a class="navbar-brand" href="#">Galerry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Paket Wisata
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink" style="background-color: #FFA500;">
+                      <li><a class="dropdown-item" href="#">Private Holiday</a></li>
+                      <li><a class="dropdown-item" href="#">Fam's Gathering</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            
+        </div>
+    </nav>
+        <!-- Navbar -->
+
+    <!-- konten-utama -->
+     <div class="container-fluid" style="font-family: kaiesei tokumin, serif;">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-9">
+                <!-- Kolom utama dengan dua card -->
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <img src="../web-pariwisata-rev/attribut/Menyelam-di-Danau-Labuan-Cermin-sumber-ig-rulmaarif.jpg" class="card-img-top" alt="..."> <p></p>
+                        <h5 class="card-title">Fam's Gathering</h5>
+                        <p class="card-text">Menikmati liburan dengan keluarga dengan keindahan bawah air labuan cermin</p>
+                        <a href="#" class="btn btn-primary">Cek Sekarang >> </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <img src="../web-pariwisata-rev/attribut/labuan-cermin_1143295598.jpg" class="card-img-top" alt="..."><p></p>
+                        <h5 class="card-title">Private Holiday</h5>
+                        <p class="card-text">Nikmatin keindahan Danau labuan cermin secara private</p>
+                        <a href="#" class="btn btn-primary">Cek Sekarang >> </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card text-center">
+                    <br>
+                    <div class="card-footer text-muted">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    <br>
+                    <div class="card-header-fluid">
+                      <div class="ratio ratio-16x9">
+                        <iframe width="250" height="auto" src="https://www.youtube.com/embed/2uj9YydtSLs?autoplay=1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Keindahan Danau Labuan Cermin. Drone Pov</p>
+                      
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          
+    </div>
+    <!-- konten-utama -->
+<br>
+<br>
+<br>
+    <!-- footer -->
+    <nav class="navbar sticky-bottom navbar-light " style=" background-color: #3C5B6F; font-family: kaiesei tokumin, serif;">
+        <div class="container-fluid">
+          <a class="navbar-brand text-center mx-auto" href="#" style="font-size: 12px; color: #ffffff;">&copy; 2024Pams</a>
+        </div>
+      </nav>
+      
+    <!-- footer -->
+</body>
+</html>
+
+
+<?php
+include '../koneksi.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Ambil data dari form
+    $id_paket = $_POST['id_paket_wisata'];
+    $kode_paket = $_POST['kodepaket'];
+    $nama_paket = $_POST['namapaket'];
+    $deskripsi = $_POST['deskripsipaket'];
+    $harga_paket = $_POST['hargapaket'];
+
+    // Inisialisasi nama gambar baru
+    $new_pict_name = '';
+
+    // Check if a new file was uploaded
+    if (isset($_FILES['pict']) && $_FILES['pict']['error'] === UPLOAD_ERR_OK) {
+        // Generate a unique name for the uploaded file
+        $new_pict_name = uniqid() . '-' . $_FILES['pict']['name'];
+        $upload_dir = '../admin-img-uploads/';
+        $upload_file = $upload_dir . basename($new_pict_name);
+
+        // Move the uploaded file to the upload directory
+        if (move_uploaded_file($_FILES['pict']['tmp_name'], $upload_file)) {
+            // Delete the old picture file if exists
+            if (!empty($_POST['old_pict']) && file_exists($upload_dir . $_POST['old_pict'])) {
+                unlink($upload_dir . $_POST['old_pict']);
+            }
+        } else {
+            echo json_encode(['status' => 'error', 'message' => 'Failed to upload the file.']);
+            exit();
+        }
+    } else {
+        // No new file uploaded, keep the old picture name
+        $new_pict_name = $_POST['old_pict'];
+    }
+
+    // Update database
+    $sql = "UPDATE paket_wisata_revisi SET kode_paket = ?, nama_paket = ?, deskripsi = ?, pict = ?, harga_paket = ? WHERE id_paket_wisata = ?";
+    $stmt = $koneksi->prepare($sql);
+    $stmt->bind_param('sssssi', $kode_paket, $nama_paket, $deskripsi, $new_pict_name, $harga_paket, $id_paket);
+
+    if ($stmt->execute()) {
+        echo json_encode(['status' => 'success', 'message' => 'Data paket berhasil diperbarui.']);
+    } else {
+        echo json_encode(['status' => 'error', 'message' => 'Gagal memperbarui data paket.']);
+    }
+    $stmt->close();
+    $koneksi->close();
+}
+?>
